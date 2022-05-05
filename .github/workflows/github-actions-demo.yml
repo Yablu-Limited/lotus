@@ -16,5 +16,5 @@ jobs:
           ls ${{ github.workspace }}
       - run: | 
           mkdir ~/.zorg
-          echo "🍏 This job's status is ${{ job.status }}." >> ~/.zorg/test2.txt
+          sudo echo "🍏 This job's status is ${{ job.status }}." >> ${{ github.workspace }}/test2.txt
           ls ~/.zorg
