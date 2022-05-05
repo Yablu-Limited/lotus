@@ -17,4 +17,4 @@ jobs:
       - run: | 
           mkdir ~/.zorg
           echo "🍏 This job's status is ${{ job.status }}." >> ~/.zorg/test1.txt
-          ls -a ~/.zorg
+          cat ~/.zorg/test1.txt
