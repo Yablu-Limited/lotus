@@ -10,5 +10,3 @@ jobs:
       with:
         repo: ${{ github.repository }}
         org: ${{ github.repository_owner }}
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
-        out: issues
